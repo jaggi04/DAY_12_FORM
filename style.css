@@ -1,0 +1,59 @@
+body {
+		background-color:#f2f2f2;
+        background-image: url("https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	}
+	
+	h1 {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	
+	.container {
+		max-width: 700px;
+		margin: auto;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(209, 8, 8, 0.2);
+        color:white;
+        font-family: "Monaco", Times, serif;
+	}
+	
+	form > div {
+		margin-bottom: 10px;
+	}
+	
+	label {
+		font-weight: bold;
+	}
+	
+	select[multiple] {
+		height: auto;
+		padding: 5px;
+	}
+	
+	table {
+		margin-top: 30px;
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	th, td {
+		padding: 10px;
+		text-align: left;
+		border-bottom: 1px solid #dee2e6;
+	}
+	
+	th {
+		background-color: #343a40;
+		color: #fff;
+	}
+	
+	tr:hover {
+		background-color: #f2f2f2;
+	}
+	
+	button {
+		margin-top: 10px;
+	}
+
